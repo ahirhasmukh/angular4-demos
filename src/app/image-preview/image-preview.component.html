@@ -1,0 +1,9 @@
+<div class="profileImage">
+  <div class="profile_image" disabled="isUserFormDisabled">
+    <img [src]="image_url" class="preview-image">
+    <div class="edit_images">
+      <i class="material-icons">edit</i>
+      <input type="file" #inputPic (change)="readUrl($event)"  accept=".png, .jpeg, .jpg, .gif" class="browse-control">
+    </div>
+  </div>
+</div>
