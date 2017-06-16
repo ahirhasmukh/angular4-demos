@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ImagePreviewComponent } from './image-preview/image-preview.component';
+import { ToggleBtnComponent } from './toggle-btn/toggle-btn.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImagePreviewComponent
+    ImagePreviewComponent,
+    ToggleBtnComponent
   ],
   imports: [
     BrowserModule
